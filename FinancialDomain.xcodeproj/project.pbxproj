@@ -12,6 +12,7 @@
 		2636DA9420AEAE6D001EC1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636DA9320AEAE6D001EC1A3 /* Assets.xcassets */; };
 		2636DA9720AEAE6D001EC1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DA9520AEAE6D001EC1A3 /* LaunchScreen.storyboard */; };
 		2636DAFB20AEB61A001EC1A3 /* FinancialDomainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAFA20AEB61A001EC1A3 /* FinancialDomainController.swift */; };
+		2636DB0920AEDA5D001EC1A3 /* FinancialDomainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DB0820AEDA5D001EC1A3 /* FinancialDomainUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		2636DA9D20AEAE6D001EC1A3 /* FinancialDomainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialDomainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2636DAA320AEAE6D001EC1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2636DAFA20AEB61A001EC1A3 /* FinancialDomainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialDomainController.swift; sourceTree = "<group>"; };
+		2636DB0820AEDA5D001EC1A3 /* FinancialDomainUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FinancialDomainUITests.swift; path = FinancialDomainUITests/FinancialDomainUITests.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		2636DAA020AEAE6D001EC1A3 /* FinancialDomainUITests */ = {
 			isa = PBXGroup;
 			children = (
+				2636DB0820AEDA5D001EC1A3 /* FinancialDomainUITests.swift */,
 				2636DAA320AEAE6D001EC1A3 /* Info.plist */,
 			);
 			name = FinancialDomainUITests;
@@ -149,6 +152,7 @@
 					};
 					2636DA9C20AEAE6D001EC1A3 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2636DA8820AEAE6D001EC1A3;
 					};
@@ -207,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2636DB0920AEDA5D001EC1A3 /* FinancialDomainUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,11 +384,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FinancialDomainUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FinancialDomainUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../../vahuj5/Desktop/FinancialDomain/FinancialDomainUITests/FinancialDomainUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FinancialDomain;
@@ -394,11 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FinancialDomainUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.FinancialDomainUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../../../vahuj5/Desktop/FinancialDomain/FinancialDomainUITests/FinancialDomainUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FinancialDomain;
