@@ -13,6 +13,7 @@
 		2636DA9420AEAE6D001EC1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636DA9320AEAE6D001EC1A3 /* Assets.xcassets */; };
 		2636DA9720AEAE6D001EC1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DA9520AEAE6D001EC1A3 /* LaunchScreen.storyboard */; };
 		2636DAA220AEAE6D001EC1A3 /* FinancialDomainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAA120AEAE6D001EC1A3 /* FinancialDomainUITests.swift */; };
+		2636DAFB20AEB61A001EC1A3 /* FinancialDomainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DAFA20AEB61A001EC1A3 /* FinancialDomainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2636DA9D20AEAE6D001EC1A3 /* FinancialDomainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialDomainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2636DAA120AEAE6D001EC1A3 /* FinancialDomainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialDomainUITests.swift; sourceTree = "<group>"; };
 		2636DAA320AEAE6D001EC1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2636DAFA20AEB61A001EC1A3 /* FinancialDomainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialDomainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				2636DA9320AEAE6D001EC1A3 /* Assets.xcassets */,
 				2636DA9520AEAE6D001EC1A3 /* LaunchScreen.storyboard */,
 				2636DA9820AEAE6D001EC1A3 /* Info.plist */,
+				2636DAFA20AEB61A001EC1A3 /* FinancialDomainController.swift */,
 			);
 			name = FinancialDomain;
 			path = ../../../vahuj5/Desktop/FinancialDomain/FinancialDomain;
@@ -203,6 +206,7 @@
 			files = (
 				2636DA8F20AEAE6D001EC1A3 /* ViewController.swift in Sources */,
 				2636DA8D20AEAE6D001EC1A3 /* AppDelegate.swift in Sources */,
+				2636DAFB20AEB61A001EC1A3 /* FinancialDomainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
