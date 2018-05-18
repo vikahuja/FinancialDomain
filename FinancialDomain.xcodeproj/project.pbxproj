@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2636DA8D20AEAE6D001EC1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DA8C20AEAE6D001EC1A3 /* AppDelegate.swift */; };
 		2636DA8F20AEAE6D001EC1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DA8E20AEAE6D001EC1A3 /* ViewController.swift */; };
 		2636DA9220AEAE6D001EC1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2636DA9020AEAE6D001EC1A3 /* Main.storyboard */; };
 		2636DA9420AEAE6D001EC1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2636DA9320AEAE6D001EC1A3 /* Assets.xcassets */; };
@@ -28,7 +27,6 @@
 
 /* Begin PBXFileReference section */
 		2636DA8920AEAE6D001EC1A3 /* FinancialDomain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialDomain.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2636DA8C20AEAE6D001EC1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2636DA8E20AEAE6D001EC1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2636DA9120AEAE6D001EC1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2636DA9320AEAE6D001EC1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 		2636DA8B20AEAE6D001EC1A3 /* FinancialDomain */ = {
 			isa = PBXGroup;
 			children = (
-				2636DA8C20AEAE6D001EC1A3 /* AppDelegate.swift */,
 				2636DA8E20AEAE6D001EC1A3 /* ViewController.swift */,
 				2636DA9020AEAE6D001EC1A3 /* Main.storyboard */,
 				2636DA9320AEAE6D001EC1A3 /* Assets.xcassets */,
@@ -205,7 +202,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2636DA8F20AEAE6D001EC1A3 /* ViewController.swift in Sources */,
-				2636DA8D20AEAE6D001EC1A3 /* AppDelegate.swift in Sources */,
 				2636DAFB20AEB61A001EC1A3 /* FinancialDomainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
